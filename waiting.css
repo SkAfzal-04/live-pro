@@ -15,6 +15,7 @@ section{
 @media only screen and (max-width:500px){
 section{
     width: 100%;
+    box-shadow: none;
 }
 }
 
@@ -32,10 +33,10 @@ section{
 h1{
     display: flex;
     justify-content: center;
-    margin-top: 60px;
+    margin-top: 50px;
     color: 	rgb(-40,174,0);
     font-weight: 1000;
-    font-size: 40px;
+    font-size: 35px;
     
 }
 
@@ -60,6 +61,10 @@ h1{
     border-left: 2px solid rgb(232, 187, 7);
     height: 80px;
     margin-left: 49.1px;  
+}
+.t{
+    width: 75%;
+
 }
 .t1{
     width: 100%;
@@ -94,12 +99,10 @@ h1{
 .t2 > p{
     position: relative;
     background-color: white;
-    right: -172px;
+    right: -95px;
+    font-weight: 200;
     font-size: 18px;
     margin-top: 14px;
-    font-weight: 200;font-size: 18px;
-    margin-top: 14px;
-    font-weight: 200;
 }
 
 .est-time{
@@ -110,7 +113,7 @@ h1{
 }
 .time{
     position: relative;
-    right: -152px;
+    right: -75px;
     font-size: 18px; 
     font-weight: 200;
 }
